@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+header{
+    background: green;
+}
+header .header_st{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+}
+
+nav{
+    background: grey;
+}
+nav .nav_st{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+}
+.nav_st li{
+    list-style: none;
+}
+.nav_st li a{
+    text-decoration: none;
+}
